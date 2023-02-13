@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splashbackground"
+    android:orientation="vertical"
+    android:gravity="center">
+
+  <TextView
+      android:id="@+id/mainTitle"
+      android:layout_width="350dp"
+      android:layout_height="100dp"
+      android:fontFamily="@font/greatvibes"
+      android:gravity="center"
+      android:text="@string/mainactivitytitle"
+      android:textColor="#FFFFFF"
+      android:textSize="64sp"
+      android:translationY="-275dp"
+      tools:ignore="TextSizeCheck,VisualLintBounds" />
+
+  <Button
+      android:id="@+id/clearButton"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:width="300dp"
+      android:height="50dp"
+      android:text="@string/clearclipboard"
+      android:textSize="24sp"
+      android:textColor="#FFFFFF"
+      android:background="#4c00bc"
+      android:translationY="-100dp"/>
+
+  <TextView
+      android:id="@+id/toggleClear"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:width="300dp"
+      android:height="50dp"
+      android:gravity="center"
+      android:text="@string/toggletext"
+      android:textColor="#FFFFFF"
+      android:textSize="24sp"
+      android:textStyle="bold" />
+
+  <Switch
+      android:id="@+id/monitorToggle"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:height="50dp"
+      android:width="50dp"
+      tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+  <Button
+      android:id="@+id/exitButton"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:width="300dp"
+      android:height="50dp"
+      android:text="@string/exit"
+      android:translationY="250dp"
+      android:textColor="#FFFFFF"
+      android:background="#4c00bc"
+      tools:ignore="VisualLintBounds" />
+
+
+</LinearLayout>

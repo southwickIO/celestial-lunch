@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Celestial-Lunch</string>
+    <string name="mainactivitytitle">Celestial Lunch</string>
+    <string name="clearclipboard">Clear Clipboard</string>
+    <string name="toggletext">TOGGLE CLEAR (ev 30 min)</string>
+    <string name="exit">Exit</string>
+    <string name="splashtitle">Celestial Lunch</string>
+    <string name="nextpage">Continue</string>
+</resources>
